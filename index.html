@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khushiram Sharma | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid #1e293b;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 15px;
+            color: #94a3b8;
+        }
+
+        nav {
+            background: #0b1220;
+            text-align: center;
+            padding: 12px 0;
+            border-top: 1px solid #1e293b;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        nav a {
+            color: #e2e8f0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #ffffff;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 8px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            color: #94a3b8;
+            font-size: 14px;
+            border-top: 1px solid #1e293b;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="your-photo-placeholder.jpg" alt="Profile Photo">
+    <h1>Khushiram Sharma</h1>
+    <p>Java Developer | Spring Boot | REST APIs | Backend Development</p>
+    <p>Bengaluru, Karnataka</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            Java Developer with hands-on experience in building backend applications using Spring Boot, RESTful APIs, and MySQL. 
+            Strong foundation in Object-Oriented Programming, Data Structures and Algorithms, Exception Handling, and Java Collections. 
+            Experienced in developing CRUD-based applications, optimizing SQL queries, and using Git for version control. 
+            Focused on writing clean, scalable, and maintainable code.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="card">
+            <strong>Languages</strong>
+            <ul>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML5, CSS3</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Frameworks</strong>
+            <ul>
+                <li>Spring Boot</li>
+                <li>Hibernate</li>
+                <li>JDBC</li>
+                <li>JSP & Servlets</li>
+                <li>REST APIs, MVC</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Databases & Tools</strong>
+            <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>CI/CD Basics</li>
+                <li>IntelliJ, Eclipse</li>
+                <li>VS Code, Postman</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Core Concepts</strong>
+            <ul>
+                <li>OOP</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Exception Handling</li>
+                <li>Collections Framework</li>
+                <li>File Handling</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <h3>Software Development Trainee</h3>
+        <p><strong>Dot Code Edification, Kota</strong> | Sep 2024 - Nov 2024</p>
+        <ul>
+            <li>Completed hands-on full-stack Java training with focus on Spring Boot and REST API design.</li>
+            <li>Developed CRUD-based backend modules using Spring Boot, JDBC, and MySQL.</li>
+            <li>Debugged applications and improved database performance.</li>
+            <li>Used Git and GitHub for version control and collaboration.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Java Developer Intern</h3>
+        <p><strong>Codec Technologies, Mumbai</strong> | Sep 2025 - Present</p>
+        <ul>
+            <li>Designed and deployed responsive portfolio website for mobile and desktop.</li>
+            <li>Improved UI performance and optimized layout structure.</li>
+            <li>Achieved 95+ Google Lighthouse performance score.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Cafe Management System</h3>
+        <ul>
+            <li>Developed CRUD-based system to manage orders, menu items, and customers.</li>
+            <li>Built REST APIs for backend operations.</li>
+            <li>Integrated MySQL using JDBC and optimized SQL queries.</li>
+        </ul>
+        <p><a href="#" target="_blank">Project Link</a></p>
+    </div>
+
+    <div class="card">
+        <h3>Weather App</h3>
+        <ul>
+            <li>Built real-time weather forecasting application using public REST APIs.</li>
+            <li>Implemented API integration and error handling.</li>
+            <li>Designed responsive UI for mobile and desktop users.</li>
+        </ul>
+        <p><a href="#" target="_blank">Project Link</a></p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+        <p>Email: khushsharma485@gmail.com</p>
+        <p>Phone: +91 7976722751</p>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#">Download Resume</a>
+    </div>
+</section>
+
+<footer>
+    © 2025 Khushiram Sharma | All Rights Reserved
+</footer>
+
+</body>
+</html>
